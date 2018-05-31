@@ -1,8 +1,4 @@
 # Consensus-From-Trust
-In this work I have implemented a node that’s part of a block-chain-based distributed consensus 
-protocol. Specifically, the code will receive incoming transactions and blocks and maintain an
-updated block chain.
-The method does not require proof of work to reach consensus given some assumptions.
-
-#Assumptions
-The recieved transactions are all valid.
+For this work, I have designed and implemented a distributed consensus algorithm given a graph of
+“trust” relationships between nodes. This is an alternative method of resisting sybil attacks and
+achieving consensus; it has the benefit of not “wasting” electricity like proof-of-work does.
